@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../../Bootstrap/bootstrap-5.1.0-dist/css/bootstrap.min.css">
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Maca</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+        <div class="container">
+            <a class="nav-link text-decoration-none text-black" href="../index.html">Kembali</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../../../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../../bahan-ajar/index.html">Materi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Soal Latihan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Uji Kompetensi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-2 w-100 ">
+        <div class="row p-3 justify-content-center">
+            <div class="col-md-8 text-center ">
+
+                <button type="button" class="btn btn-outline-dark d-inline-block ms-md-3 me-md-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" id="list">Daftar Soal</button>
+                <a href="../nomor4/index.html" class="btn btn-outline-dark d-inline-block ms-md-3 me-md-3"
+                    id="back">Sebelumnya</a>
+                <button type="button" class="btn btn-outline-dark d-inline-block ms-md-3 me-md-3" data-bs-toggle="modal"
+                    data-bs-target="#finish" id="list">Selesai</button>
+            </div>
+        </div>
+        <div class="row p-3 justify-content-center ">
+            <div class="col-md-8 box">
+                <div class="question">
+                    <h4>Nomor 5</h4>
+                    <p id="num5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos unde voluptatem, ipsa
+                        dicta sint
+                        harum a molestiae nam aperiam saepe, dolores, dolore incidunt accusamus voluptatibus. Quos
+                        quasi
+                        temporibus ducimus molestias.</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row p-3 justify-content-center">
+            <div class="col-md-4 box ms-2 me-2 answer ans-5 ">A. x = <span class="ans-5-a">10</span></div>
+            <div class="col-md-4 box ms-2 me-2 answer ans-5">A. x = <span class="ans-5-b">10</span></div>
+            <div class="col-md-4 box ms-2 me-2 answer ans-5">A. x = <span class="ans-5-c">10</span></div>
+            <div class="col-md-4 box ms-2 me-2 answer ans-5">A. x = <span class="ans-5-d">10</span></div>
+        </div>
+    </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Daftar Soal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul>
+                        <li class="d-inline-block text-center list-item">
+                            <a href="../nomor1/index.html"
+                                class="btn p-3  btn-outline-dark text-black text-decoration-none">1</a>
+                        </li>
+                        <li class="d-inline-block text-center list-item">
+                            <a href="../nomor2/index.html"
+                                class="btn p-3  btn-outline-dark text-black text-decoration-none">2</a>
+                        </li>
+                        <li class="d-inline-block text-center list-item">
+                            <a href="../nomor3/index.html"
+                                class="btn p-3  btn-outline-dark text-black text-decoration-none">3</a>
+                        </li>
+                        <li class="d-inline-block text-center list-item">
+                            <a href="../nomor4/index.html"
+                                class="btn p-3  btn-outline-dark text-black text-decoration-none">4</a>
+                        </li>
+                        <li class="d-inline-block text-center list-item">
+                            <a href="../nomor5/index.html"
+                                class="btn p-3  btn-outline-dark text-black text-decoration-none">5</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="finish" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Daftar Soal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Kamu yakin sudah selesai?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Back</button>
+                    <button type="button" class="btn btn-primary" id="confirm-finish">Confirm</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="../../../../Js/Jquery/jquery-3.6.0.min.js"></script>
+    <script src="../../../../Js/Math/math.js"></script>
+    <!-- Bootrap js -->
+    <script src="../../../../Bootstrap/bootstrap-5.1.0-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- My Script -->
+    <script src="script.js"></script>
+    <script src="../main-script.js"></script>
+
+
+</body>
+
+</html>
